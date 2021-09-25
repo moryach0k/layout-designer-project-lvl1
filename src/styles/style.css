@@ -21,6 +21,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Neucha', cursive;
     line-height: 1.2em;
+    margin: 0;
 }
 
 h1 {
@@ -40,4 +41,61 @@ section {
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.txt-main {
+    color:var(--main)
+}
+
+.bg {
+    position: relative;
+}
+
+.bg::before {
+    content: ' ';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.programmer-illustration {
+    position: absolute;
+    z-index: -1;
+    height: 525px;
+    top: 55px;
+    right: -104px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bias-description-block {
+    margin-top: 185px;
+}
+
+.bias-description-column {
+    width: 540px;
+}
+
+.btn {
+    display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 40px;
+    font-weight: 700;
+    background-color: var(--main);
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
 }
