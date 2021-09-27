@@ -18,7 +18,12 @@ body {
     color: var(--dark);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Neucha', cursive;
     line-height: 1.2em;
     margin: 0;
@@ -44,7 +49,7 @@ section {
 }
 
 .txt-main {
-    color:var(--main)
+    color: var(--main);
 }
 
 .bg {
