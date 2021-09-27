@@ -179,3 +179,57 @@ h3 {
   font-family: 'Neucha', cursive;
   line-height: 1;
 }
+
+.bias-illustration {
+  flex-shrink: 0;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.bias-illustration img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.bias-header {
+  padding-left: 30px;
+}
+
+.bias-header span {
+  display: block;
+  color: var(--semi-dark);
+  font-size: 24px;
+  font-family: 'Neucha', cursive;
+}
+
+.bias-header h2 {
+  font-weight: 400;
+}
+
+.bias-header > p {
+  font-size: 34px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2;
+}
+
+.bias-traits {
+  margin-top: 100px;
+}
+
+.bias-traits h4 {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  color: var(--white);
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
+  text-transform: uppercase;
+  background-color: var(--brown);
+}
+
+.bias-traits p {
+  margin-bottom: 0;
+}
