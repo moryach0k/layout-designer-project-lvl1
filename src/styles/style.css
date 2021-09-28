@@ -257,3 +257,79 @@ h3 {
 .bias-traits p {
   margin-bottom: 0;
 }
+
+.feedback-form {
+  align-items: center;
+  padding-top: 38px;
+  padding-right: 55px;
+  padding-bottom: 38px;
+  padding-left: 55px;
+  color: var(--white);
+  background-color: var(--main-dark);
+}
+
+.feeback-form-header {
+  margin-right: 122px;
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.feedback-form-field {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.feedback-form-field label {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.feedback-form-field input {
+  flex-grow: 1;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 15px;
+  border: 0;
+}
+
+.feedback-form-field button {
+  position: relative;
+  box-sizing: border-box;
+  width: 70px;
+  height: 50px;
+  background-color: var(--main);
+  border: 0;
+}
+
+.feedback-form-field button::before {
+  position: absolute;
+  top: 13px;
+  left: 23px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../assets/send.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: '';
+}
+
+.feedback-form-field p {
+  font-size: 12px;
+}
+
+.feedback-form-field a {
+  color: var(--white);
+}
+
+.contacts {
+  margin-top: 60px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.contacts a {
+  color: --var(blue);
+}

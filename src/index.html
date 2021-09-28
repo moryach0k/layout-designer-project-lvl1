@@ -208,16 +208,24 @@
         </section>
     </main>
     <footer>
-        <h2>Хотите узнать больше? Подпишитесь на уведомления</h2>
-        <form action="email">
-            <label for="email">Электронная почта</label>
-            <input type="email" name="email" id="email" placeholder="Ваша электронная почта">
-            <button>Подписаться</button>
-        </form>
-        <p>Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
-        <p>© 2020 Константин Константинопольский</p>
-        <p>По материалам статьи Yash Ranadive Cognitive Biases in Programming</p>
-        <p>Курсы программирования Hexlet</p>
+        <div class="wrapper">
+            <div class="feedback-form flex">
+                <h2 class="feeback-form-header">Хотите узнать больше?<br>Подпишитесь на уведомления</h2>
+                <form class="feedback-form-field" action="email">
+                    <label for="email">Электронная почта</label>
+                    <div class="flex">
+                        <input type="email" name="email" id="email" placeholder="Ваша электронная почта">
+                        <button></button>
+                    </div>
+                    <p>Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
+                </form>
+            </div>
+            <div class="contacts">
+                <p>© 2020 Константин Константинопольский</p>
+                <p>По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
+                <p><a href="https://ru.hexlet.io/">Курсы программирования Hexlet</a></p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
