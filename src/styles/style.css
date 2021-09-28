@@ -67,6 +67,11 @@ h3 {
   background-color: var(--light);
 }
 
+.bg-brown {
+  color: var(--white);
+  background-color: var(--brown);
+}
+
 .bg::before {
   position: absolute;
   top: 0;
@@ -191,15 +196,26 @@ h3 {
   vertical-align: middle;
 }
 
-.bias-header {
+.bias-header-right {
   padding-left: 30px;
 }
 
-.bias-header span {
+.bias-header-left {
+  padding-right: 30px;
+}
+
+.bias-subheader {
   display: block;
-  color: var(--semi-dark);
   font-size: 24px;
   font-family: 'Neucha', cursive;
+}
+
+.bias-subheader-dark {
+  color: var(--semi-dark);
+}
+
+.bias-subheader-light {
+  color: var(--semi-white);
 }
 
 .bias-header h2 {
@@ -216,18 +232,26 @@ h3 {
   margin-top: 100px;
 }
 
-.bias-traits h4 {
+.bias-traits-header {
   box-sizing: border-box;
   margin-bottom: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-  color: var(--white);
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6em;
   text-transform: uppercase;
+}
+
+.bias-traits-header-dark {
+  color: var(--white);
   background-color: var(--brown);
+}
+
+.bias-traits-header-light {
+  color: var(--brown);
+  background-color: var(--white);
 }
 
 .bias-traits p {
