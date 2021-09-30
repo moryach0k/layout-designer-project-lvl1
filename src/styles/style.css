@@ -172,6 +172,10 @@ h3 {
   background-color: var(--light);
 }
 
+.bias-block p {
+  margin-bottom: 0;
+}
+
 .bias-block:hover {
   background-color: var(--white);
 }
