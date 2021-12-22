@@ -26,6 +26,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  font-weight: 400;
   font-family: 'Neucha', cursive;
   line-height: 1.2em;
 }
@@ -88,10 +89,9 @@ h3 {
 
 .programmer-illustration {
   position: absolute;
-  top: 55px;
-  right: -104px;
+  top: 100px;
+  right: 0;
   z-index: -1;
-  height: 525px;
 }
 
 .flex {
@@ -143,6 +143,7 @@ h3 {
 .video {
   display: block;
   margin: 0 auto;
+  border: 0;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -222,10 +223,6 @@ h3 {
   color: var(--semi-white);
 }
 
-.bias-header h2 {
-  font-weight: 400;
-}
-
 .bias-header > p {
   font-size: 34px;
   font-family: 'Neucha', cursive;
@@ -274,7 +271,6 @@ h3 {
 
 .feeback-form-header {
   margin-right: 122px;
-  font-weight: 400;
   font-size: 34px;
 }
 
