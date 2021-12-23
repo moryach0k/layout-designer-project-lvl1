@@ -4,6 +4,7 @@
   --white-50: #d7ccc0;
   --light: #f5f4f0;
   --primary: #fe8a02;
+  --primary-hover: #ea7600;
   --primary-dark: #42413c;
   --dark: #2a2626;
   --dark-50: #908d8b;
@@ -41,6 +42,10 @@ h2 {
 
 h3 {
   font-size: 34px;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .wrapper {
@@ -125,6 +130,10 @@ h3 {
   background-color: var(--primary);
 }
 
+.btn:hover {
+  background-color: var(--primary-hover);
+}
+
 .video-overlap {
   position: relative;
   bottom: -100px;
@@ -177,24 +186,21 @@ h3 {
   margin-bottom: 0;
 }
 
-.bias-block:hover {
-  background-color: var(--primary);
-}
-
-.bias-block:hover .bias-number,
-.bias-block:hover .txt-main,
-.bias-block:hover p
- {
-  color: var(--white);
-}
-
 .bias-number {
   display: block;
   padding-bottom: 40px;
   color: var(--primary-dark);
   font-size: 64px;
   font-family: 'Neucha', cursive;
-  line-height: 1;
+  line-height: 1.1;
+}
+
+.bias-block:hover {
+  background-color: var(--primary);
+}
+
+.bias-block:hover * {
+  color: var(--white);
 }
 
 .bias-illustration {
@@ -220,6 +226,7 @@ h3 {
   display: block;
   font-size: 24px;
   font-family: 'Neucha', cursive;
+  line-height: 1.2;
 }
 
 .bias-subheader-dark {
@@ -231,6 +238,8 @@ h3 {
 }
 
 .bias-header > p {
+  margin-top: 30px;
+  margin-bottom: 0;
   font-size: 34px;
   font-family: 'Neucha', cursive;
   line-height: 1.2;
@@ -246,10 +255,9 @@ h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-  font-size: 16px;
   font-weight: 700;
+  font-size: 14px;
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.6em;
   text-transform: uppercase;
 }
 
@@ -264,6 +272,7 @@ h3 {
 }
 
 .bias-traits p {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -271,7 +280,7 @@ h3 {
   align-items: center;
   padding-top: 38px;
   padding-right: 55px;
-  padding-bottom: 38px;
+  padding-bottom: 40px;
   padding-left: 55px;
   color: var(--white);
   background-color: var(--primary-dark);
@@ -291,6 +300,7 @@ h3 {
 .feedback-form-field label {
   margin-bottom: 8px;
   font-size: 18px;
+  line-height: 1.6;
 }
 
 .feedback-form-field input {
@@ -301,6 +311,12 @@ h3 {
   border: 0;
 }
 
+.feedback-form-field input::placeholder {
+  font-size: 13.1px;
+  line-height: 1.6;
+  opacity: 0.2;
+}
+
 .feedback-form-field button {
   position: relative;
   box-sizing: border-box;
@@ -308,6 +324,11 @@ h3 {
   height: 50px;
   background-color: var(--primary);
   border: 0;
+}
+
+.feedback-form-field button:hover {
+  background-color: var(--primary-hover);
+  cursor: pointer;
 }
 
 .feedback-form-field button::before {
@@ -325,7 +346,10 @@ h3 {
 }
 
 .feedback-form-field p {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 12px;
+  line-height: 1.6;
 }
 
 .feedback-form-field a {
@@ -333,11 +357,12 @@ h3 {
 }
 
 .contacts {
-  margin-top: 60px;
+  margin-top: 76px;
   font-size: 14px;
+  line-height: 1.6;
   text-align: center;
 }
 
 .contacts a {
-  color: --var(blue);
+  color: var(--blue);
 }
