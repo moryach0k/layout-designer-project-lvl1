@@ -12,29 +12,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="bg">
-        <section class="wrapper">
-            <h1><span class="txt-main">Когнитивные<br>искажения<br></span>в программировании</h1>
-            <img class="programmer-illustration" src="assets/main.png" alt="Маскот Хекслета сидит за ноутбуком">
-            <div class="flex bias-description-block">
-                <div class="bias-description-column">
-                    <p class="bias-description-paragraph">
-                        Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.
-                    </p>
-                </div>
-                <div class="bias-description-column">
-                    <p class="bias-description-paragraph">
-                        Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.
-                    </p>
-                    <p class="bias-description-paragraph">
-                        Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
-                    </p>
-                    <a class="btn" href="#navigation">Подробнее</a>
+    <main>
+        <header class="bg">
+            <div class="wrapper">
+                <h1><span class="txt-main">Когнитивные<br>искажения<br></span>в программировании</h1>
+                <img class="programmer-illustration" src="assets/main.png" alt="Маскот Хекслета сидит за ноутбуком">
+                <div class="flex bias-description-block">
+                    <div class="bias-description-column">
+                        <p class="bias-description-paragraph">
+                            Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.
+                        </p>
+                    </div>
+                    <div class="bias-description-column">
+                        <p class="bias-description-paragraph">
+                            Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.
+                        </p>
+                        <p class="bias-description-paragraph">
+                            Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
+                        </p>
+                        <a class="btn" href="#navigation">Подробнее</a>
+                    </div>
                 </div>
             </div>
-        </section>
-    </header>
-    <main>
+        </header>
+
         <section class="video-block">
             <div class="wrapper video-overlap">
                 <h2 class="video-title txt-center">Что же это такое,<br><span class="txt-main">когнитивные искажения?</span></h2>
@@ -215,7 +216,7 @@
                     <label for="email">Электронная почта</label>
                     <div class="flex">
                         <input type="email" name="email" id="email" placeholder="Ваша электронная почта">
-                        <button></button>
+                        <button><span class="visually-hidden">Подписаться на уведомления</span></button>
                     </div>
                     <p>Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
                 </form>
