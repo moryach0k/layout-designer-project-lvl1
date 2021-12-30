@@ -13,101 +13,87 @@
 </head>
 <body>
     <main>
-        <header class="bg">
-            <div class="wrapper">
-                <h1><span class="txt-main">Когнитивные<br>искажения<br></span>в программировании</h1>
-                <img class="programmer-illustration" src="assets/main.png" alt="Маскот Хекслета сидит за ноутбуком">
-                <div class="flex bias-description-block">
-                    <div class="bias-description-column">
-                        <p class="bias-description-paragraph">
+        <header class="bg bg-light bg-questions">
+            <div class="wrapper py-100">
+                <h1><span class="text-primary">Когнитивные<br>искажения<br></span>в программировании</h1>
+                <img class="hero-image" src="assets/main.png" alt="Маскот Хекслета сидит за ноутбуком">
+                <div class="flex gap-x-30 mt-185">
+                    <div class="flex-1">
+                        <p>
                             Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.
                         </p>
                     </div>
-                    <div class="bias-description-column">
-                        <p class="bias-description-paragraph">
+                    <div class="flex-1">
+                        <p>
                             Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.
                         </p>
-                        <p class="bias-description-paragraph">
+                        <p>
                             Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
                         </p>
-                        <a class="btn" href="#navigation">Подробнее</a>
+                        <a class="btn-md btn-primary mt-24" href="#navigation">Подробнее</a>
                     </div>
                 </div>
             </div>
         </header>
 
-        <section class="video-block">
-            <div class="wrapper video-overlap">
-                <h2 class="video-title txt-center">Что же это такое,<br><span class="txt-main">когнитивные искажения?</span></h2>
-                <p class="video-description txt-center">Что такое когнитивные искажения. Petrovna Channel</p>
-                <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" allowfullscreen></iframe>
+        <section>
+            <div class="wrapper -overlap-bottom-100">
+                <h2 class="mb-30 text-center">Что же это такое,<br><span class="text-primary">когнитивные искажения?</span></h2>
+                <p class="mb-30 text-center">Что такое когнитивные искажения. Petrovna Channel</p>
+                <iframe class="video shadow-md" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" allowfullscreen></iframe>
             </div>
         </section>
         
-        <section class="all-biases" id="navigation">
-            <div class="wrapper pt-200 flex flex-wrap">
-                <div class="all-biases-title">
-                    <h2><span class="txt-main">5 когнитивных искажений</span><br>о существовании которых стоит помнить</h2>
-                </div>
-                <a class="bias-block" href="#ikea-effect">
-                    <div class="bias-card">
-                        <span class="bias-number">1</span>
-                        <h3 class="txt-main">Эффект ИКЕА</h3>
-                        <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
-                    </div>
+        <section class="bg-primary-dark" id="navigation">
+            <div class="wrapper flex flex-wrap gap-x-30 gap-y-20 pt-200 pb-100">
+                <h2 class="all-biases-cell text-xxxl text-white"><span class="text-primary">5 когнитивных искажений</span><br>о существовании которых стоит помнить</h2>
+                <a class="all-biases-preview all-biases-preview-light no-decoration all-biases-cell" href="#ikea-effect">
+                    <div class="all-biases-number pb-40 font-neucha">1</div>
+                    <h3 class="text-primary">Эффект ИКЕА</h3>
+                    <p class="mb-0">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
                 </a>
-                <a class="bias-block" href="#premature-optimization">
-                    <div class="bias-card">
-                        <span class="bias-number">2</span>
-                        <h3 class="txt-main">Преждевременная оптимизация</h3>
-                        <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
-                    </div>
+                <a class="all-biases-preview all-biases-preview-light no-decoration all-biases-cell" href="#premature-optimization">
+                    <div class="all-biases-number pb-40 font-neucha">2</div>
+                    <h3 class="text-primary">Преждевременная оптимизация</h3>
+                    <p class="mb-0">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
                 </a>
-                <a class="bias-block" href="#distortion-of-novelty">
-                    <div class="bias-card">
-                        <span class="bias-number">3</span>
-                        <h3 class="txt-main">Искажение новизны</h3>
-                        <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
-                    </div>
+                <a class="all-biases-preview all-biases-preview-light no-decoration all-biases-cell" href="#distortion-of-novelty">
+                    <div class="all-biases-number pb-40 font-neucha">3</div>
+                    <h3 class="text-primary">Искажение новизны</h3>
+                    <p class="mb-0">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
                 </a>
-                <a class="bias-block" href="#hyperbolic-depreciation">
-                    <div class="bias-card">
-                        <span class="bias-number">4</span>
-                        <h3 class="txt-main">Гиперболическое обесценивание</h3>
-                        <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
-                    </div>
+                <a class="all-biases-preview all-biases-preview-light no-decoration all-biases-cell" href="#hyperbolic-depreciation">
+                    <div class="all-biases-number pb-40 font-neucha">4</div>
+                    <h3 class="text-primary">Гиперболическое обесценивание</h3>
+                    <p class="mb-0">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
                 </a>
-                <a  class="bias-block" href="#errors-in-planning">
-                    <div class="bias-card">
-                        <span class="bias-number">5</span>
-                        <h3 class="txt-main">Ошибка планирования</h3>
-                        <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
-                    </div>
+                <a  class="all-biases-preview all-biases-preview-light no-decoration all-biases-cell" href="#errors-in-planning">
+                    <div class="all-biases-number pb-40 font-neucha">5</div>
+                    <h3 class="text-primary">Ошибка планирования</h3>
+                    <p class="mb-0">Неправильно рассчитывать время необходимое для завершения задачи.</p>
                 </a>
             </div>
         </section>
 
-        <section class="bg" id="ikea-effect">
-            <div class="wrapper">
+        <section class="bg bg-light bg-questions" id="ikea-effect">
+            <div class="wrapper py-100">
                 <div class="flex">
-                    <div class="bias-illustration">
-                        <img src="assets/1.png" alt="Маскот Хекслета настаивает на своей точке зрения">
-                    </div>
-                    <div class="bias-header bias-header-right">
-                        <span class="bias-subheader bias-subheader-dark">Когнитивные искажения</span>
+                    <img class="shadow-md" src="assets/1.png" alt="Маскот Хекслета настаивает на своей точке зрения">
+                    <div class="pl-30">
+                        <div class="text-xl text-dark-50 font-neucha">Когнитивные искажения</div>
                         <h2>Эффект ИКЕА</h2>
-                        <p>
+                        <p class="mt-30 mb-0 text-xxl font-neucha">
                             Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.
                         </p>
                     </div>
                 </div>
-                <div class="bias-traits">
-                    <h3 class="bias-traits-header bias-traits-header-dark">Как проявляется</h3>
-                    <div class="flex">
-                        <p class="bias-description-column">
+                <div class="mt-100">
+                    <h3 class="bias-traits-header mb-20 py-5 pl-10 bg-brown">Как проявляется</h3>
+                    <div class="flex gap-x-30">
+                        <p class="flex-1 mt-0 mb-0">
                             Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.
                         </p>
-                        <p class="bias-description-column">
+                        <p class="flex-1 mt-0 mb-0">
                             Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.
                         </p>
                     </div>
@@ -115,25 +101,25 @@
             </div>
         </section>
 
-        <section class="bg bg-brown" id="premature-optimization">
-            <div class="wrapper">
+        <section class="bg bg-brown bg-questions" id="premature-optimization">
+            <div class="wrapper py-100">
                 <div class="flex">
-                    <div class="bias-header bias-header-left">
-                        <span class="bias-subheader bias-subheader-light">Когнитивные искажения</span>
+                    <div class=" pr-30">
+                        <div class="text-xl text-light-50 font-neucha">Когнитивные искажения</div>
                         <h2>Преждевременная оптимизация</h2>
-                        <p>
+                        <p class="mt-30 mb-0 text-xxl font-neucha">
                             Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.
                         </p>
                     </div>
-                    <div class="bias-illustration"><img src="assets/2.png" alt="Маскот Хекслета оптимизирует полёт ещё не построенной ракеты"></div>
+                    <img class="shadow-md" src="assets/2.png" alt="Маскот Хекслета оптимизирует полёт ещё не построенной ракеты">
                 </div>
-                <div class="bias-traits">
-                    <h3 class="bias-traits-header bias-traits-header-light">Как проявляется</h3>
-                    <div class="flex">
-                        <p class="bias-description-column">
+                <div class="mt-100">
+                    <h3 class="bias-traits-header mb-20 py-5 pl-10 bg-white">Как проявляется</h3>
+                    <div class="flex gap-x-30">
+                        <p class="flex-1 mt-0 mb-0">
                             Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.
                         </p>
-                        <p class="bias-description-column">
+                        <p class="flex-1 mt-0 mb-0">
                             Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.
                         </p>
                     </div>
@@ -141,67 +127,67 @@
             </div>
         </section>
 
-        <section class="bg" id="distortion-of-novelty">
-            <div class="wrapper">
+        <section class="bg bg-light bg-questions" id="distortion-of-novelty">
+            <div class="wrapper py-100">
                 <div class="flex">
-                    <div class="bias-illustration"><img src="assets/3.png" alt="Маскот Хекслета выкинул все старые идеи в мусорку из-за новой"></div>
-                    <div class="bias-header bias-header-right">
-                        <span class="bias-subheader bias-subheader-dark">Когнитивные искажения</span>
+                    <img class="shadow-md" src="assets/3.png" alt="Маскот Хекслета выкинул все старые идеи в мусорку из-за новой">
+                    <div class=" pl-30">
+                        <div class="text-xl text-dark-50 font-neucha">Когнитивные искажения</div>
                         <h2>Искажение новизны</h2>
-                        <p>
+                        <p class="mt-30 mb-0 text-xxl font-neucha">
                             Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.
                         </p>
                     </div>
                 </div>
-                <div class="bias-traits">
-                    <h3 class="bias-traits-header bias-traits-header-dark">Как проявляется</h3>
-                    <div class="flex">
-                        <p class="bias-description-column">Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
-                        <p class="bias-description-column">Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
+                <div class="mt-100">
+                    <h3 class="bias-traits-header mb-20 py-5 pl-10 bg-brown">Как проявляется</h3>
+                    <div class="flex gap-x-30">
+                        <p class="flex-1 mt-0 mb-0">Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
+                        <p class="flex-1 mt-0 mb-0">Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg bg-brown" id="hyperbolic-depreciation">
-            <div class="wrapper">
+        <section class="bg bg-brown bg-questions" id="hyperbolic-depreciation">
+            <div class="wrapper py-100">
                 <div class="flex">
-                    <div class="bias-header bias-header-left">
-                        <span class="bias-subheader bias-subheader-light">Когнитивные искажения</span>
+                    <div class=" pr-30">
+                        <div class="text-xl text-light-50 font-neucha">Когнитивные искажения</div>
                         <h2>Гиперболическое обесценивание</h2>
-                        <p>
+                        <p class="mt-30 mb-0 text-xxl font-neucha">
                             Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.
                         </p>
                     </div>
-                    <div class="bias-illustration"><img src="assets/4.png" alt="Маскот Хекслета предпочел не лезть на гору и забрать несколько монет, хотя за горой целый чемодан с монетами"></div>
+                    <img class="shadow-md" src="assets/4.png" alt="Маскот Хекслета предпочел не лезть на гору и забрать несколько монет, хотя за горой целый чемодан с монетами">
                 </div>
-                <div class="bias-traits">
-                    <h3 class="bias-traits-header bias-traits-header-light">Как проявляется</h3>
-                    <div class="flex">
-                        <p class="bias-description-column">Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание.</p>
-                        <p class="bias-description-column">Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
+                <div class="mt-100">
+                    <h3 class="bias-traits-header mb-20 py-5 pl-10 bg-white">Как проявляется</h3>
+                    <div class="flex gap-x-30">
+                        <p class="flex-1 mt-0 mb-0">Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание.</p>
+                        <p class="flex-1 mt-0 mb-0">Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg" id="errors-in-planning">
-            <div class="wrapper">
+        <section class="bg bg-light bg-questions" id="errors-in-planning">
+            <div class="wrapper py-100">
                 <div class="flex">
-                    <div class="bias-illustration"><img src="assets/5.png" alt="Маскот Хекслета сидит и планирует своё время"></div>
-                    <div class="bias-header bias-header-right">
-                        <span class="bias-subheader bias-subheader-dark">Когнитивные искажения</span>
+                    <img class="shadow-md" src="assets/5.png" alt="Маскот Хекслета сидит и планирует своё время">
+                    <div class="pl-30">
+                        <div class="text-xl text-dark-50 font-neucha">Когнитивные искажения</div>
                         <h2>Ошибка планирования</h2>
-                        <p>
+                        <p class="mt-30 mb-0 text-xxl font-neucha">
                             Неправильно рассчитывать время необходимое для завершения задачи.
                         </p>
                     </div>
                 </div>
-                <div class="bias-traits">
-                    <h3 class="bias-traits-header bias-traits-header-dark">Как проявляется</h3>
-                    <div class="flex">
-                        <p class="bias-description-column">Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</p>
-                        <p class="bias-description-column">Это отлично выражается в старом афоризме:
+                <div class="mt-100">
+                    <h3 class="bias-traits-header mb-20 py-5 pl-10 bg-brown">Как проявляется</h3>
+                    <div class="flex gap-x-30">
+                        <p class="flex-1 mt-0 mb-0">Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</p>
+                        <p class="flex-1 mt-0 mb-0">Это отлично выражается в старом афоризме:
                             Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
                     </div>
                 </div>
@@ -209,22 +195,22 @@
         </section>
     </main>
     <footer>
-        <div class="wrapper">
-            <div class="feedback-form flex">
-                <h2 class="feeback-form-header">Хотите узнать больше?<br>Подпишитесь на уведомления</h2>
-                <form class="feedback-form-field" action="email">
-                    <label for="email">Электронная почта</label>
+        <div class="wrapper py-100">
+            <div class="email-subscription flex items-center bg-primary-dark">
+                <h2 class="mr-122 text-xxl">Хотите узнать больше?<br>Подпишитесь на уведомления</h2>
+                <form class="flex flex-1 flex-col" action="email">
+                    <label class="mb-8 text-lg" for="email">Электронная почта</label>
                     <div class="flex">
-                        <input type="email" name="email" id="email" placeholder="Ваша электронная почта">
-                        <button><span class="visually-hidden">Подписаться на уведомления</span></button>
+                        <input class="email-subscription-form-input flex-1" type="email" name="email" id="email" placeholder="Ваша электронная почта">
+                        <button class="icon-button icon-button-primary icon-send"><span class="visually-hidden">Подписаться на уведомления</span></button>
                     </div>
-                    <p>Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
+                    <p class="mt-0 mb-0 text-sm">Подписываясь, вы принимаете <a class="text-white" href="#">правила сервиса</a></p>
                 </form>
             </div>
-            <div class="contacts">
+            <div class="mt-76 text-md text-center">
                 <p>© 2020 Константин Константинопольский</p>
-                <p>По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
-                <p><a href="https://ru.hexlet.io/">Курсы программирования Hexlet</a></p>
+                <p>По материалам статьи <a class="text-blue" href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
+                <p><a class="text-blue" href="https://ru.hexlet.io/">Курсы программирования Hexlet</a></p>
             </div>
         </div>
     </footer>
