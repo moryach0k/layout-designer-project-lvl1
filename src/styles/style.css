@@ -342,7 +342,9 @@ a:hover {
 }
 
 .icon-button {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 70px;
   height: 50px;
 }
@@ -358,10 +360,6 @@ a:hover {
 }
 
 .icon-button::before {
-  position: absolute;
-  top: 13px;
-  left: 23px;
-  display: block;
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
