@@ -1,0 +1,182 @@
+/** VARIABLES **/
+:root {
+  --white: #fff;
+  --white-50: #d7ccc0;
+  --light: #f5f4f0;
+  --primary: #fe8a02;
+  --primary-hover: #ea7600;
+  --primary-dark: #42413c;
+  --dark: #2a2626;
+  --dark-50: #908d8b;
+  --dark-20: rgba(117, 117, 117, 0.2);
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+/** GLOBAL **/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  color: var(--dark);
+  font-size: 16px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.6em;
+}
+
+/** WRAPPER **/
+
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.wrapper_py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/** LAYOUT **/
+
+.layout {
+  display: flex;
+  column-gap: 30px;
+}
+
+.layout__col {
+  flex: 1;
+}
+
+.layout_mb-20 {
+  margin-bottom: 20px;
+}
+
+/** TITLE **/
+
+.title {
+  margin: 0;
+  font-weight: 400;
+  font-family: 'Neucha', "Brush Script MT", cursive;
+  line-height: 1.2em;
+}
+
+.title_lg {
+  font-size: 72px;
+}
+
+.title_md {
+  font-size: 52px;
+  line-height: 1.2;
+}
+
+.title_white {
+  color: var(--white);
+}
+
+.title__highlight_primary {
+  color: var(--primary);
+}
+
+/** BUTTON **/
+
+.button {
+  display: inline-block;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button_primary {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.button_primary:hover {
+  background-color: var(--primary-hover);
+}
+
+/** HEADER **/
+
+.header {
+  position: relative;
+  z-index: 0;
+  color: var(--dark);
+  background-color: var(--light);
+}
+
+.header::before {
+  background-image: url(../assets/background.png);
+  opacity: 0.1;
+}
+
+.header__image {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  z-index: -1;
+}
+
+.header__description {
+  margin-top: 185px;
+}
+
+.header__button {
+  margin-top: 24px;
+}
+
+/** NAVIGATION **/
+
+.navigation {
+  color: var(--white);
+  background-color: var(--primary-dark);
+}
+
+/** BIAS CARD **/
+
+.bias-card {
+  display: block;
+  height: 100%;
+  padding: 24px;
+  color: var(--dark);
+  text-decoration: none;
+  background-color: var(--light);
+}
+
+.bias-card:hover {
+  text-decoration: none;
+  background-color: var(--primary);
+}
+
+.bias-card:hover * {
+  color: var(--white);
+}
+
+.bias-card__number {
+  padding-bottom: 40px;
+  color: var(--primary-dark);
+  font-size: 64px;
+  font-family: 'Neucha', "Brush Script MT", cursive;
+  line-height: 1.1;
+}
+
+.bias-card__title {
+  color: var(--primary);
+  font-size: 34px;
+}
+
+.bias-card__description {
+  margin-bottom: 0;
+}
